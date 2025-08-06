@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'tajwal', sans-serif;
+  background-color: #ffffff;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-color: #1f2275;
+  --orang-color: #f17732;
+  --btn-color: #565acf;
+}
+
+section,
+footer,
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+span {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+p {
+  line-height: 28px;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #ffff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+  font-family: 'tajwal';
+}
