@@ -1,0 +1,19 @@
+body{
+    background-image: url(../images/header_files/f.avif);
+    background-size: cover;
+}
+.form_container{
+    width:30%;
+    background-color: rgba(255, 255, 255, 0.843);
+}
+
+@media screen and (max-width: 1000px) {
+    .form_container {
+            width: 45%;
+        }
+}
+@media screen and (max-width: 700px) {
+    .form_container {
+        width: 65%;
+    }
+}

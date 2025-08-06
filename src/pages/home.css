@@ -1,0 +1,88 @@
+header {
+    margin-top: 0px;
+    background-color: #ffffff ;
+    height: 100vh;
+}
+header .row{
+    margin: 50px 0px;
+}
+
+header .row h5{
+    color: var(--btn-color);
+    font-size: 20px;
+    margin: 40px 0px 10px 0px;
+}
+
+header h2{
+    color: var(--main-color);
+    font-size: 40px;
+    margin: 30px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+header button{
+    background-color: var( --orang-color) !important;
+    width: 200px;
+    height: 60px;
+    border: 1px solid var(--orang-color) !important;
+    border-radius: 4px !important;
+    margin-top: 20px;
+    transition: 0.2s ease;
+}
+
+header button a{
+    color: #ffffff ;
+    font-size: 17px;
+    transition: 0.2s ease;
+}
+
+header button:hover a {
+    color: #8d56cf;
+}
+
+header button:hover{
+    opacity: 0.88;
+} 
+
+header span{
+    display: block;
+    font-size: 80px;
+    color: #ffffff ;
+    -webkit-text-stroke: 1px var(--orang-color);
+    animation: mover 1s infinite alternate;
+    text-shadow: 3px 3px 5px rgba(53, 52, 52, 0.5);
+}
+
+header .header-box{
+    position: relative;
+    max-width: 100%;
+}
+
+header img{
+    max-width: 100%;
+    width: 430px;
+    height: auto;
+    animation: mover 2s  infinite alternate;
+    transition: 0.3s ease all;
+    margin-left: 200px;
+}
+
+@keyframes mover {
+    0%{
+    transform: translateY(0px);
+    }
+    100% {
+    transform: translateY(-10px);
+    }
+}
+
+header svg{
+    color: var(--orang-color);
+    font-size: 50px;
+    position: absolute;
+    left:  0%;
+    top: 20%;
+    animation: mover 1s  infinite alternate;
+} 
