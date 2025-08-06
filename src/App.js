@@ -1,17 +1,12 @@
-import React from 'react';
+﻿import React from 'react';
 import './App.css';
-import Navbars from './components/Nav/Navbar';
-import Home from './components/Home/Home';
-import FAQ from './components/Pages/FAQ’S/FAQ’S';
-import LatestNews from './components/LatestNews';
+import FAQ from './components/Pages/FAQS/FAQS';
+// import LatestNews from './components/Pages/LatestNews/LatestNews';
 
 function App() {
   return (
     <>
-    <Navbars/>
-    <Home/>
     <FAQ/>
-    <LatestNews/>
     </>
   );
 }
