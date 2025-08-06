@@ -1,0 +1,153 @@
+footer {
+    background-image: url('../../images/footerbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: 60px 0;
+    color: #fff;
+}
+footer p{
+    color: #1e4580;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col-md-3 {
+    width: 22%;
+    margin-bottom: 30px;
+}
+
+footer img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+footer h2 {
+    color: navy;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+footer h2::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #0b5ed7;
+    margin-top: 5px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer ul li a:hover {
+    color: #0b5ed7;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.footer-icon svg {
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff4d30;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer-text h6 {
+    margin: 0;
+    font-size: 12px;
+    color: #777;
+}
+
+.footer-text h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff4d30;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d63e22;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    footer .col-md-3 {
+        width: 100%;
+    }
+}
+
+.footer-buttom {
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.footer-buttom span {
+    font-size: 14px;
+    color: #1e4580;
+}
+
+form span {
+    display: inline-block; 
+    font-size: 80px;
+    color: #c6e5ee;
+    -webkit-text-stroke: 1px var(--orang-color);
+    animation: spin 4s linear infinite;
+    text-shadow: 3px 3px 5px rgba(53, 52, 52, 0.5);
+    transform-origin: center center; 
+}
+
+/* حركة الدوران */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
