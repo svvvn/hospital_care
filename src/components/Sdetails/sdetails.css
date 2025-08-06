@@ -1,0 +1,10 @@
+.service-details {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service-details h2 {
+  color: #5c5ce0;
+}
